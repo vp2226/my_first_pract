@@ -1,0 +1,85 @@
+
+ADMIN@DESKTOP-7JBUUS9 MINGW64 ~/Downloads/Kirti
+$ git config --global user.name "vp2226"
+
+ADMIN@DESKTOP-7JBUUS9 MINGW64 ~/Downloads/Kirti
+$ git config --global user.email vaishnaveeahire26@gmail.com
+
+ADMIN@DESKTOP-7JBUUS9 MINGW64 ~/Downloads/Kirti
+$ git config --global user.email
+vaishnaveeahire26@gmail.com
+
+ADMIN@DESKTOP-7JBUUS9 MINGW64 ~/Downloads/Kirti
+$ git config --global user.name
+vp2226
+
+ADMIN@DESKTOP-7JBUUS9 MINGW64 ~/Downloads/Kirti
+$ git init
+Initialized empty Git repository in C:/Users/ADMIN/Downloads/Kirti/.git/
+
+ADMIN@DESKTOP-7JBUUS9 MINGW64 ~/Downloads/Kirti (master)
+$ git *
+git: '040607-NetworkTools (1).ppt' is not a git command. See 'git --help'.
+
+ADMIN@DESKTOP-7JBUUS9 MINGW64 ~/Downloads/Kirti (master)
+$ git add *
+
+ADMIN@DESKTOP-7JBUUS9 MINGW64 ~/Downloads/Kirti (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   040607-NetworkTools (1).ppt
+        new file:   IP-address.ppt
+        new file:   lecture9 (1).ppt
+
+
+ADMIN@DESKTOP-7JBUUS9 MINGW64 ~/Downloads/Kirti (master)
+$ git commit -m "my first committ"
+[master (root-commit) 856b71d] my first committ
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 040607-NetworkTools (1).ppt
+ create mode 100644 IP-address.ppt
+ create mode 100644 lecture9 (1).ppt
+
+ADMIN@DESKTOP-7JBUUS9 MINGW64 ~/Downloads/Kirti (master)
+$ git commit -a
+On branch master
+nothing to commit, working tree clean
+
+ADMIN@DESKTOP-7JBUUS9 MINGW64 ~/Downloads/Kirti (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+ADMIN@DESKTOP-7JBUUS9 MINGW64 ~/Downloads/Kirti (master)
+$
+
+git remote add origin https://github.com/vp2226/my_first_repo.git
+
+ADMIN@DESKTOP-7JBUUS9 MINGW64 ~/Downloads/Kirti (master)
+$ git remote add origin https://github.com/vp2226/my_first_repo.git
+error: remote origin already exists.
+
+ADMIN@DESKTOP-7JBUUS9 MINGW64 ~/Downloads/Kirti (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.41 MiB | 2.10 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/vp2226/my_first_repo.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+ADMIN@DESKTOP-7JBUUS9 MINGW64 ~/Downloads/Kirti (master)
+$ git push -u origin master
+Everything up-to-date
+branch 'master' set up to track 'origin/master'.
+
+ADMIN@DESKTOP-7JBUUS9 MINGW64 ~/Downloads/Kirti (master)
+$
